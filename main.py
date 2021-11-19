@@ -20,7 +20,7 @@ print("[3] Sair do Jogo\n")
 
 modo_de_jogo = ''
 mre = ''
-#Pesquisar try e catch para forçar a escolha do jogador
+
 def modo_de_jogo(modo_escolhido):
     if int(modo_escolhido) == 1: #Jogo Rápido
         print("\n[1] Novo Jogo ")

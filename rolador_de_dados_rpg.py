@@ -1,11 +1,11 @@
-from random import choice
+from random import choice       # Comando responsável por sortear um valor dentro do array
 
-def d4():
-    d4 = []
-    for i in range(1,5,1):
-        d4.append(i)
-    resultado = choice(d4)
-    return resultado
+def d4():                       # Cria a função referente a um dado de 4 lados
+    d4 = []                     # Cria array vazio
+    for i in range(1,5,1):      # Esse for vai fazer uma varredura e adicionar todos os lados do dado no array
+        d4.append(i)            # Essa linha é responsável por adicionar o index atual do for no array
+    resultado = choice(d4)      # Essa linha pega o array d4 e sorteia um valor dentro dele, que é como se você rolasse o dado
+    return resultado            # Essa linha retorna o valor do resultado obtido para o código, ou seja, o valor que deu no dado
 
 def d6():
     d6 = []
