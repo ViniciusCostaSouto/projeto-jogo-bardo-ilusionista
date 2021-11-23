@@ -7,7 +7,7 @@ def d4():                       # Cria a função referente a um dado de 4 lados
     resultado = choice(d4)      # Essa linha pega o array d4 e sorteia um valor dentro dele, que é como se você rolasse o dado
     return resultado            # Essa linha retorna o valor do resultado obtido para o código, ou seja, o valor que deu no dado
 
-def d6():
+def d6():                       # Cria a função referente a um dado de 6 lados
     d6 = []
     for i in range(1,7,1):
         d6.append(i)

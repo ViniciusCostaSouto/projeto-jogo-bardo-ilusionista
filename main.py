@@ -1,3 +1,4 @@
+# Início do Jogo com menu
 import jogo_rapido as jr
 # from livro import ler_livro
 from pyfiglet import Figlet

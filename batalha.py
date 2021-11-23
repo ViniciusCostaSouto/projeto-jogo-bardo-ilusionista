@@ -1,6 +1,6 @@
-from rolador_de_dados_rpg import d20
+from rolador_de_dados_rpg import d20 # Puxa função do dado d20 do arquivo rolador_de_dados_rpg
 
-def batalha_rapida_facil(personagem, vilao):
+def batalha_rapida_facil(personagem, vilao):  # Declara função de batalha rapida fácil
     
     resultado = []
     i = 0
@@ -21,7 +21,7 @@ def batalha_rapida_facil(personagem, vilao):
     elif resultado_personagem < resultado_vilao:
       return False
 
-def batalha_rapida_media(personagem, vilao):
+def batalha_rapida_media(personagem, vilao):  # Declara função de batalha rapida média
     
     resultado = []
     i = 0
@@ -42,7 +42,7 @@ def batalha_rapida_media(personagem, vilao):
     elif resultado_personagem < resultado_vilao:
       return False
 
-def batalha_rapida_dificil(personagem, vilao):
+def batalha_rapida_dificil(personagem, vilao):  # Declara função de batalha rapida dificil
     
     resultado = []
     i = 0

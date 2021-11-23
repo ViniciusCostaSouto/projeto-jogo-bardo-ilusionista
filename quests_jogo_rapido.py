@@ -1,3 +1,4 @@
+# Gerador de quest e batalhas do modo rápido
 from random import choice
 from teste_de_dificuldade import teste_dificuldade_1
 from batalha import batalha_rapida_facil as brf

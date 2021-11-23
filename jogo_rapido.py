@@ -24,7 +24,7 @@ p3 = [choice(nomes), choice(raças), choice(classes)]
 p4 = [choice(nomes), choice(raças), choice(classes)]
 p5 = [choice(nomes), choice(raças), choice(classes)]
 
-def taverneiro():
+def taverneiro():    # Função para definir quem é o taverneiro da guilda de acordo com o dia atual
     my_date = date.today()
     dia_atual = calendar.day_name[my_date.weekday()]
     if dia_atual in ('Sunday', 'Tuesday','Thursday', 'Saturday'):

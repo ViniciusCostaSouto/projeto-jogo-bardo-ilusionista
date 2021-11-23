@@ -6,7 +6,7 @@ from rolador_de_dados_rpg import d12
 from rolador_de_dados_rpg import d20
 from rolador_de_dados_rpg import d100
 
-def teste_dificuldade_1():
+def teste_dificuldade_1():        # Cria a função referente a um teste de dificuldade nivel 1
     dificuldade = 4
     rolagem = d8()
 

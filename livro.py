@@ -67,5 +67,5 @@ historia_livro = f'''
     {sleep(1)}
 '''
 
-def ler_livro():
+def ler_livro():    # Define função que retorna a história da guilda
     return historia_livro
